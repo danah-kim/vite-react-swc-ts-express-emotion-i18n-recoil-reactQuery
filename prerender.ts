@@ -43,12 +43,9 @@ const routesToPrerender = (await fs.readdir(toAbsolute("src/pages"))).map(
 
     await fs.writeFile(
       toAbsolute(filePath),
-      await fs
-        .readFile(toAbsolute("dist/static/index.html"), "utf-8")
-        // @ts-ignore
+      (await fs.readFile(toAbsolute("dist/static/index.html"), "utf-8"))
         .replace(
           "<!--app-html-->",
-          // @ts-ignore
           (await import("./dist/server/entry-server.js")).render(url)
         )
         .replace("<!--app-styles-->", await getStyleSheets())

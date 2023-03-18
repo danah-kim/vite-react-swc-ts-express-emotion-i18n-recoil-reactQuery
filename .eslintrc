@@ -1,59 +1,59 @@
-module.exports = {
-  root: true,
-  env: {
-    es6: true,
-    node: true,
-    browser: true,
+{
+  "root": true,
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
   },
-  parser: "@typescript-eslint/parser",
-  parserOptions: {
-    ecmaFeatures: { jsx: true },
-    jsx: true,
-    useJSXTextNode: true,
-    ecmaVersion: "latest",
-    sourceType: module,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": { "jsx": true },
+    "jsx": true,
+    "useJSXTextNode": true,
+    "ecmaVersion": "latest",
+    "sourceType": "module"
   },
-  extends: [
+  "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "eslint-config-prettier",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "plugin:import/typescript",
-    "plugin:prettier/recommended",
+    "plugin:prettier/recommended"
   ],
-  plugins: [
+  "plugins": [
     "@typescript-eslint",
     "import",
     "prettier",
     "react",
     "react-hooks",
     "eslint-plugin-simple-import-sort",
-    "unused-imports",
+    "unused-imports"
   ],
-  settings: {
-    react: {
-      version: "detect",
+  "settings": {
+    "react": {
+      "version": "detect"
     },
     "import/parsers": {
-      "@typescript-eslint/parser": [".ts", ".tsx"],
+      "@typescript-eslint/parser": [".ts", ".tsx"]
     },
     "import/resolver": {
-      node: {
-        paths: ["./src"],
-        extensions: [".js", ".ts", ".jsx", ".tsx", ".json"],
+      "node": {
+        "paths": ["./src"],
+        "extensions": [".js", ".ts", ".jsx", ".tsx", ".json"]
       },
-      alias: true,
-      typescript: {},
-    },
+      "alias": true,
+      "typescript": {}
+    }
   },
-  rules: {
+  "rules": {
     "prettier/prettier": "error",
     "no-implicit-coercion": "error",
     "no-undef": "off",
-    indent: "off",
+    "indent": "off",
     "@typescript-eslint/indent": "off",
-    semi: "off",
+    "semi": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "no-extra-boolean-cast": "off",
@@ -65,14 +65,14 @@ module.exports = {
     "no-restricted-imports": [
       "error",
       {
-        paths: [
+        "paths": [
           {
-            name: "util",
-            importNames: ["isArray"],
-            message: "`Array.isArray`를 대신 사용해주세요!",
-          },
-        ],
-      },
+            "name": "util",
+            "importNames": ["isArray"],
+            "message": "`Array.isArray`를 대신 사용해주세요!"
+          }
+        ]
+      }
     ],
     "no-async-promise-executor": "warn",
     "@typescript-eslint/prefer-as-const": "warn",
@@ -80,27 +80,16 @@ module.exports = {
     "@typescript-eslint/ban-types": "warn",
     "@typescript-eslint/no-inferrable-types": "warn",
     "@typescript-eslint/no-empty-function": "off",
-    "@typescript-eslint/naming-convention": [
-      "error",
-      {
-        format: ["camelCase", "UPPER_CASE", "PascalCase"],
-        selector: "variable",
-        leadingUnderscore: "allow",
-      },
-      { format: ["camelCase", "PascalCase"], selector: "function" },
-      { format: ["PascalCase"], selector: "interface" },
-      { format: ["PascalCase"], selector: "typeAlias" },
-    ],
     "@typescript-eslint/explicit-module-boundary-types": "off",
-    "@typescript-eslint/array-type": ["error", { default: "array-simple" }],
+    "@typescript-eslint/array-type": ["error", { "default": "array-simple" }],
     "@typescript-eslint/no-unused-vars": [
       "error",
-      { ignoreRestSiblings: true },
+      { "ignoreRestSiblings": true }
     ],
     "@typescript-eslint/member-ordering": [
       "error",
       {
-        default: [
+        "default": [
           "public-static-field",
           "private-static-field",
           "public-instance-field",
@@ -108,21 +97,21 @@ module.exports = {
           "public-constructor",
           "private-constructor",
           "public-instance-method",
-          "private-instance-method",
-        ],
-      },
+          "private-instance-method"
+        ]
+      }
     ],
     "no-warning-comments": [
       "warn",
       {
-        terms: ["TODO", "FIXME", "XXX", "BUG"],
-        location: "anywhere",
-      },
+        "terms": ["TODO", "FIXME", "XXX", "BUG"],
+        "location": "anywhere"
+      }
     ],
     "prefer-const": "error",
     "no-var": "error",
-    curly: ["error", "all"],
-    eqeqeq: ["error", "always", { null: "ignore" }],
+    "curly": ["error", "all"],
+    "eqeqeq": ["error", "always", { "null": "ignore" }],
     "import/no-duplicates": "error",
     "react/prop-types": "off",
     "react/display-name": "off",
@@ -135,10 +124,10 @@ module.exports = {
     "simple-import-sort/exports": "error",
     "no-unused-vars": [
       "error",
-      { vars: "all", args: "none", ignoreRestSiblings: false },
+      { "vars": "all", "args": "none", "ignoreRestSiblings": false }
     ],
     "unused-imports/no-unused-imports-ts": ["error"],
-    "comma-spacing": ["error", { before: false, after: true }],
-    "no-use-before-define": "off",
-  },
-};
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "no-use-before-define": "off"
+  }
+}

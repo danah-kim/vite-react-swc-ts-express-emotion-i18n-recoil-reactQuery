@@ -39,9 +39,10 @@
   },
   "ts-node": {
     "esm": true,
-    "transpileOnly": true,
+    "experimentalSpecifierResolution": "node",
+    "require": ["tsconfig-paths/register"]
   },
   "include": ["src", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules", "prerender.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

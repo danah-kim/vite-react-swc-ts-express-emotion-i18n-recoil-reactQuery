@@ -1,15 +1,14 @@
-import fs from "fs/promises";
-import path from "path";
-import { fileURLToPath } from "url";
-import express from "express";
-import type { Request, Response } from "express";
-import cookieParser from "cookie-parser";
-import cors from "cors";
-import helmet from "helmet";
 import bodyParser from "body-parser";
-import { createServer as createViteServer } from "vite";
 import compression from "compression";
+import cookieParser from "cookie-parser";
+import type { Request, Response } from "express";
+import express from "express";
+import fs from "fs/promises";
+import helmet from "helmet";
+import path from "path";
 import serveStatic from "serve-static";
+import { fileURLToPath } from "url";
+import { createServer as createViteServer } from "vite";
 
 const PORT = 3000;
 const isTest = process.env.NODE_ENV === "test" || process.env.VITEST;
@@ -64,7 +63,6 @@ async function createServer() {
   );
 
   app.use(vite.middlewares);
-  app.use(cors());
   app.use(helmet({ contentSecurityPolicy: false }));
   app.set("trust proxy", true);
   app.disable("x-powered-by");
