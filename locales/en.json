@@ -1,0 +1,5 @@
+{
+  "title": "'Vite SSR app'",
+  "description": "App using Vite + vite-plugin-ssr",
+  "welcome": "Welcome"
+}

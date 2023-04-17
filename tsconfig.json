@@ -5,16 +5,54 @@
     "target": "ES2020",
     "moduleResolution": "Node",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "types": ["vite/client"],
-    "jsx": "react",
+    "types": ["vite/client", "node", "vite-plugin-ssr"],
+    "jsx": "react-jsx",
     "skipLibCheck": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "useDefineForClassFields": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "pretty": true,
+    "importHelpers": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "importsNotUsedAsValues": "remove",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/*"],
+      "locales/*": ["locales/*"],
+      "locales": ["locales"],
+      "renderer/*": ["renderer/*"],
+      "server/*": ["server/*"],
+      "api/*": ["src/api/*"],
+      "components": ["src/components"],
+      "components/*": ["src/components/*"],
+      "constants/*": ["src/constants/*"],
+      "hooks/*": ["src/hooks/*"],
+      "libs/*": ["src/libs/*"],
+      "recoil/*": ["src/recoil/*"],
+      "types/*": ["types/*"]
+    },
+    "jsxImportSource": "@emotion/react",
+    "sourceMap": false
   },
   "ts-node": {
     "transpileOnly": true,
     "esm": true,
     "compilerOptions": {
       "moduleResolution": "Node16"
-    }
+    },
+    "experimentalResolverFeatures": true
   }
 }

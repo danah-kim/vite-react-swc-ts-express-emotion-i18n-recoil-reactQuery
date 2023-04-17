@@ -1,12 +1,13 @@
-import React from 'react'
-import { Counter } from './Counter'
+import { LocaleText } from 'libs/LocaleText';
 
-export { Page }
+import { Counter } from './Counter';
+
+export { Page };
 
 function Page() {
   return (
     <>
-      <h1>Welcome</h1>
+      <LocaleText id="welcome" type="h1" isHtml />
       This page is:
       <ul>
         <li>Rendered to HTML.</li>
@@ -15,5 +16,5 @@ function Page() {
         </li>
       </ul>
     </>
-  )
+  );
 }
