@@ -1,11 +1,12 @@
 repo_name: danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery
 report_id: 9d1fd11e893dbbfb3640327f4e3faabb
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-12T11:59:10+00:00'
+timestamp: '2024-01-05T08:49:00+00:00'
 requested_by: danah-kim
 provider: github
 branch: main
-detected_tools_count: 44
+detected_tools_count: 46
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery
   detection_source: Repo Metadata
 - name: ExpressJS
   description: Sinatra inspired web development framework for node.js -- insanely
@@ -38,7 +41,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -52,8 +55,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source_url: Dockerfile
-  detection_source: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/Dockerfile
+  detection_source: Dockerfile
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
 - name: React
@@ -66,7 +69,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -79,6 +82,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery
   detection_source: Repo Metadata
 - name: ESLint
   description: The fully pluggable JavaScript code quality tool
@@ -89,6 +93,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-03-17 09:08:08.000000000 Z
@@ -100,6 +105,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery
   detection_source: Repo Metadata
 - name: Prettier
   description: 'Prettier is an opinionated code formatter. '
@@ -111,7 +117,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -125,7 +131,7 @@ tools:
   category: Monitoring
   sub_category: node.js Application Monitoring
   image_url: https://img.stackshare.io/service/5577/preview.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -137,6 +143,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-03-17 09:08:08.000000000 Z
@@ -149,6 +156,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery
   detection_source: Repo Metadata
 - name: axios
   description: Promise based HTTP client for the browser and node.js
@@ -160,7 +168,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -169,6 +177,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -177,6 +186,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -190,7 +200,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16503/default_55f3303d620c93eecbee69c43373d484f2be492f.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -204,7 +214,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16306/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -218,7 +228,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16702/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -232,7 +242,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16808/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -246,7 +256,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18206/default_dfaa3c3f19039c5391ee1a13529324eaa2685e7f.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -260,7 +270,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18195/default_5b09e8832af55b8bf88554d45d4eb65653e6ac76.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -274,7 +284,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -288,7 +298,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -302,7 +312,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17032/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -316,7 +326,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -330,7 +340,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -344,7 +354,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -358,7 +368,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -372,7 +382,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16187/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -386,7 +396,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16136/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -400,7 +410,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -414,7 +424,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -428,7 +438,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -442,7 +452,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -456,7 +466,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15885/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -470,7 +480,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -484,7 +494,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -498,7 +508,35 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Danah
+  last_updated_on: 2023-04-17 03:50:50.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Danah
+  last_updated_on: 2023-04-17 03:50:50.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 13.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -512,7 +550,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16125/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-03-17 09:08:08.000000000 Z
@@ -526,7 +564,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -540,7 +578,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18461/default_5ff724c0ff89bb42698aa80ef3403008cb0d8f72.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -554,7 +592,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -568,7 +606,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17643/default_2b5fe3dc5bfc4e83a84162459ff612ac6febd61a.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
@@ -582,7 +620,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery/blob/main/package.json
   detection_source: package.json
   last_updated_by: Danah
   last_updated_on: 2023-04-17 03:50:50.000000000 Z
