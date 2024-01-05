@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery is built on the following main stack:
+
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - [React](https://reactjs.org/) – Javascript UI Libraries
 - [ExpressJS](http://expressjs.com/) – Microframeworks (Backend)
@@ -15,11 +16,13 @@ danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery is built on t
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/1163/hashtag.png' alt='ExpressJS'/> [ExpressJS](http://expressjs.com/) – Microframeworks (Backend)
@@ -33,14 +36,15 @@ danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery is built on t
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery](https://github.com/danah-kim/vite-react-swc-ts-express-emotion-i18n-recoil-reactQuery)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|44<br/>Tools used|11/12/23 <br/>Report generated|
+|46<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -185,9 +189,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (29)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (31)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (29)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (31)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -214,6 +218,8 @@ Full tech stack [here](/techstack.md)
 |[eslint-plugin-react](https://www.npmjs.com/eslint-plugin-react)|v7.32.2|04/17/23|Danah |MIT|N/A|
 |[eslint-plugin-react-hooks](https://www.npmjs.com/eslint-plugin-react-hooks)|v4.6.0|04/17/23|Danah |MIT|N/A|
 |[express](https://www.npmjs.com/express)|v4.18.1|04/17/23|Danah |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v8.0.0|04/17/23|Danah |MIT|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v13.2.1|04/17/23|Danah |MIT|N/A|
 |[qs](https://www.npmjs.com/qs)|v6.11.1|03/17/23|Danah |BSD-3-Clause|N/A|
 |[react-dom](https://www.npmjs.com/react-dom)|v18.2.0|04/17/23|Danah |MIT|N/A|
 |[react-toastify](https://www.npmjs.com/react-toastify)|v9.1.2|04/17/23|Danah |MIT|N/A|
@@ -224,4 +230,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
